@@ -1,0 +1,32 @@
+uuid: 2cf3b6b9-84ac-4267-b009-f0145b682d07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.alert.body
+    - field.field.node.alert.field_effective_dates
+    - field.field.node.alert.field_sitewide
+    - node.type.alert
+  module:
+    - text
+    - user
+id: node.alert.default
+targetEntityType: node
+bundle: alert
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_effective_dates: true
+  field_sitewide: true

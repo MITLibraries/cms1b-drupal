@@ -1,0 +1,21 @@
+uuid: fec39f20-1d15-4fae-a4c9-15533fe7e9ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_effective_dates
+    - node.type.alert
+  module:
+    - datetime_range
+id: node.alert.field_effective_dates
+field_name: field_effective_dates
+entity_type: node
+bundle: alert
+label: 'Effective Dates'
+description: 'This defines the start and end time for displaying this alert.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

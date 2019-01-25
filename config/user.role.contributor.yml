@@ -6,4 +6,7 @@ id: contributor
 label: Contributor
 weight: 4
 is_admin: null
-permissions: {  }
+permissions:
+  - 'create alert content'
+  - 'delete own alert content'
+  - 'edit own alert content'
