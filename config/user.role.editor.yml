@@ -6,4 +6,11 @@ id: editor
 label: Editor
 weight: 3
 is_admin: null
-permissions: {  }
+permissions:
+  - 'access content overview'
+  - 'create alert content'
+  - 'delete any alert content'
+  - 'edit any alert content'
+  - 'edit own alert content'
+  - 'revert alert revisions'
+  - 'view alert revisions'
