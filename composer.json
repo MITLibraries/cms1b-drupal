@@ -24,7 +24,7 @@
         "drush/drush": "~8",
         "pantheon-systems/quicksilver-pushback": "~1",
         "rvtraveller/qs-composer-installer": "^1.1",
-        "webflo/drupal-core-strict": "^8"
+        "webflo/drupal-core-strict": "^8.6.7"
     },
     "require-dev": {
         "mikey179/vfsstream": "^1.2",
