@@ -1,0 +1,23 @@
+uuid: 4c2e0ef9-4266-4f39-86dd-9159d5b023b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_24x7
+    - node.type.location
+id: node.location.field_24x7
+field_name: field_24x7
+entity_type: node
+bundle: location
+label: 24x7
+description: 'Is this location open 24x7?'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
