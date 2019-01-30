@@ -29,3 +29,6 @@ permissions:
   - 'edit own remote_video media'
   - 'edit own video media'
   - 'update media'
+  - 'view alert revisions'
+  - 'view article revisions'
+  - 'view page revisions'
