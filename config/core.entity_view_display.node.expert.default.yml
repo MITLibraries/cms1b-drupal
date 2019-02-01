@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.expert.body
+    - field.field.node.expert.field_campus_address
     - field.field.node.expert.field_cv
     - field.field.node.expert.field_image
     - field.field.node.expert.field_phone
@@ -28,6 +29,15 @@ content:
     weight: 3
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_campus_address:
+    weight: 7
+    label: above
+    settings:
+      view_mode: campus_address_view_mode
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
     region: content
   field_cv:
     weight: 5

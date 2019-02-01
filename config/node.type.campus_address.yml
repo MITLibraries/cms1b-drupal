@@ -1,0 +1,17 @@
+uuid: dcc065e6-af18-4d15-995b-fa87eb29e376
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Campus Address'
+type: campus_address
+description: 'A combination of Location and room number, meant to be populated in context of an Expert'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
