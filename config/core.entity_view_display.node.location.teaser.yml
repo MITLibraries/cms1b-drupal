@@ -27,4 +27,9 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_24x7: true
+  field_featured: true
+  field_image: true
+  field_phone: true
+  field_specialties: true

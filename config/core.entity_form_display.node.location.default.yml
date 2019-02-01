@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.location.body
     - field.field.node.location.field_24x7
+    - field.field.node.location.field_coordinates
     - field.field.node.location.field_featured
     - field.field.node.location.field_image
     - field.field.node.location.field_phone
@@ -12,6 +13,7 @@ dependencies:
     - image.style.thumbnail
     - node.type.location
   module:
+    - geolocation
     - image
     - path
     - telephone
@@ -32,19 +34,54 @@ content:
     region: content
   created:
     type: datetime_timestamp
-    weight: 8
+    weight: 9
     region: content
     settings: {  }
     third_party_settings: {  }
   field_24x7:
-    weight: 6
+    weight: 7
     settings:
       display_label: true
     third_party_settings: {  }
     type: boolean_checkbox
     region: content
+  field_coordinates:
+    weight: 4
+    settings:
+      populate_address_field: ''
+      target_address_field: null
+      explicite_actions_address_field: ''
+      default_longitude: null
+      default_latitude: null
+      auto_client_location: ''
+      auto_client_location_marker: ''
+      allow_override_map_settings: 0
+      google_map_settings:
+        type: ROADMAP
+        zoom: '10'
+        minZoom: 0
+        maxZoom: 18
+        rotateControl: 0
+        mapTypeControl: 1
+        streetViewControl: 1
+        zoomControl: 1
+        fullscreenControl: 0
+        scrollwheel: 1
+        disableDoubleClickZoom: 0
+        draggable: 1
+        height: 400px
+        width: 100%
+        info_auto_display: 1
+        marker_icon_path: ''
+        disableAutoPan: 1
+        style: ''
+        preferScrollingToZooming: 0
+        gestureHandling: auto
+    third_party_settings: {  }
+    type: geolocation_googlegeocoder
+    region: content
   field_featured:
-    weight: 5
+    weight: 6
     settings:
       display_label: true
     third_party_settings: {  }
@@ -59,7 +96,7 @@ content:
     type: image_image
     region: content
   field_phone:
-    weight: 4
+    weight: 5
     settings:
       placeholder: ''
     third_party_settings: {  }
@@ -76,7 +113,7 @@ content:
     region: content
   path:
     type: path
-    weight: 11
+    weight: 12
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -84,21 +121,21 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 9
+    weight: 10
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 12
+    weight: 13
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 10
+    weight: 11
     region: content
     third_party_settings: {  }
   title:
@@ -111,7 +148,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 7
+    weight: 8
     settings:
       match_operator: CONTAINS
       size: 60
