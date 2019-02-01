@@ -1,0 +1,10 @@
+uuid: 881e645c-be4e-4323-b8be-0fdfeaa4c9c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.campus_address_view_mode
+label: 'Campus Address view mode'
+targetEntityType: node
+cache: true

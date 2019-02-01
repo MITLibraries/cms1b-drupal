@@ -1,0 +1,21 @@
+uuid: b1ef10b2-b678-4c54-b0ae-d8eba751a120
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_phone
+    - node.type.location
+  module:
+    - telephone
+id: node.location.field_phone
+field_name: field_phone
+entity_type: node
+bundle: location
+label: Phone
+description: 'The formatted phone number to use for contacting the desk at this location'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

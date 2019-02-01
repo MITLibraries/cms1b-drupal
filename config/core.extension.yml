@@ -1,4 +1,8 @@
 module:
+  address: 0
+  admin_toolbar: 0
+  admin_toolbar_links_access_filter: 0
+  admin_toolbar_tools: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
@@ -15,14 +19,19 @@ module:
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  editor_file: 0
   field: 0
   field_ui: 0
   file: 0
   filter: 0
+  geolocation: 0
+  geolocation_google_places_api: 0
   help: 0
   history: 0
   image: 0
+  inline_entity_form: 0
   link: 0
+  media: 0
   menu_ui: 0
   node: 0
   options: 0
@@ -35,6 +44,7 @@ module:
   simple_block: 0
   system: 0
   taxonomy: 0
+  telephone: 0
   text: 0
   toolbar: 0
   tour: 0

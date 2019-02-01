@@ -1,0 +1,21 @@
+uuid: 39e16664-a3de-44ed-a2e6-61c2519f8daa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_phone
+    - node.type.expert
+  module:
+    - telephone
+id: node.expert.field_phone
+field_name: field_phone
+entity_type: node
+bundle: expert
+label: Phone
+description: 'The formatted phone number to use for contacting this expert'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

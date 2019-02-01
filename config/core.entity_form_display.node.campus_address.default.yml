@@ -1,0 +1,35 @@
+uuid: a4981c9e-2fa6-4daf-87f0-5a8e47f395bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.campus_address.body
+    - field.field.node.campus_address.field_location
+    - node.type.campus_address
+id: node.campus_address.default
+targetEntityType: node
+bundle: campus_address
+mode: default
+content:
+  field_location:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

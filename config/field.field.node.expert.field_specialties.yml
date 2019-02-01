@@ -1,0 +1,29 @@
+uuid: f8a44289-9c89-4555-bb7e-b0a571416532
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_specialties
+    - node.type.expert
+    - taxonomy.vocabulary.specialties
+id: node.expert.field_specialties
+field_name: field_specialties
+entity_type: node
+bundle: expert
+label: Specialties
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      specialties: specialties
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

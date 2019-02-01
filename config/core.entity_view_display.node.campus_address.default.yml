@@ -1,0 +1,37 @@
+uuid: 8926bf95-cd0d-4ba3-a391-3ec57b3fb543
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.campus_address.body
+    - field.field.node.campus_address.field_location
+    - node.type.campus_address
+  module:
+    - text
+    - user
+id: node.campus_address.default
+targetEntityType: node
+bundle: campus_address
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_location:
+    weight: 102
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

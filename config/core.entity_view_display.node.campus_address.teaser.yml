@@ -1,17 +1,18 @@
-uuid: 6ab62166-edd6-48b3-a743-dfe195d30d6f
+uuid: 02c45608-2f98-4969-924c-7597779996e7
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.alert.body
-    - node.type.alert
+    - field.field.node.campus_address.body
+    - field.field.node.campus_address.field_location
+    - node.type.campus_address
   module:
     - text
     - user
-id: node.alert.teaser
+id: node.campus_address.teaser
 targetEntityType: node
-bundle: alert
+bundle: campus_address
 mode: teaser
 content:
   body:
@@ -28,5 +29,4 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
-  field_effective_dates: true
-  field_sitewide: true
+  field_location: true
