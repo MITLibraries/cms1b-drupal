@@ -1,0 +1,22 @@
+uuid: 2b78d3b1-3c72-4925-88b5-0daf07809426
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - gcs_bootstrap
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: gcs_bootstrap_help
+theme: gcs_bootstrap
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,24 @@
+uuid: 740f3dc5-d83c-46f3-8d9e-dec452f06b5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.alerts
+  module:
+    - views
+  theme:
+    - mayo
+id: mayo_views_block__alerts_block_1
+theme: mayo
+region: highlighted
+weight: 0
+provider: null
+plugin: 'views_block:alerts-block_1'
+settings:
+  id: 'views_block:alerts-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

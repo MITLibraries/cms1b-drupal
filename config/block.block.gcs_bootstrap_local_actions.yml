@@ -1,0 +1,20 @@
+uuid: fed30a08-90a7-431c-b491-eff80e1dc6b4
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gcs_bootstrap
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: gcs_bootstrap_local_actions
+theme: gcs_bootstrap
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
