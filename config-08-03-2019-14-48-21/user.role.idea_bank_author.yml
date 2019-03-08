@@ -1,0 +1,9 @@
+uuid: 6edc6b02-86e1-4b16-b037-fa8ce7da4a4d
+langcode: en
+status: true
+dependencies: {  }
+id: idea_bank_author
+label: 'Idea Bank Author'
+weight: 5
+is_admin: null
+permissions: {  }

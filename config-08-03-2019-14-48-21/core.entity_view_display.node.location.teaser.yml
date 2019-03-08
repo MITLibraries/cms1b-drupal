@@ -1,17 +1,17 @@
-uuid: 6d9e4fbf-72ef-4978-aacc-a950b0426bb1
+uuid: 5ea47587-53fa-40cb-8c0c-549fb0df3f16
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.expert.body
-    - node.type.expert
+    - field.field.node.location.body
+    - node.type.location
   module:
     - text
     - user
-id: node.expert.teaser
+id: node.location.teaser
 targetEntityType: node
-bundle: expert
+bundle: location
 mode: teaser
 content:
   body:
@@ -28,10 +28,9 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
-  field_campus_address: true
-  field_cv: true
+  field_24x7: true
+  field_coordinates: true
+  field_featured: true
   field_image: true
   field_phone: true
-  field_sorted_name: true
   field_specialties: true
-  field_title: true

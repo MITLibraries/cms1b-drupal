@@ -1,0 +1,17 @@
+uuid: 1501585a-8f6a-49f3-af79-32646338f001
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Expert
+type: expert
+description: 'A featured expert at the libraries'
+help: 'The displayed name of the expert'
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,19 @@
+uuid: 3ed3f3e1-c85c-4704-8cc8-44187bfe61e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title
+    - node.type.expert
+id: node.expert.field_title
+field_name: field_title
+entity_type: node
+bundle: expert
+label: Title
+description: 'The person-facing title for our expert - rather than an HR classification'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,14 @@
+uuid: 625b7aaa-273d-4a8d-b7e5-37ba77cf5300
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.idea_bank_author
+  module:
+    - user
+id: user_add_role_action.idea_bank_author
+label: 'Add the Idea Bank Author role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: idea_bank_author
