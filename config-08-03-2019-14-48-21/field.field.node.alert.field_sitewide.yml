@@ -1,0 +1,23 @@
+uuid: 176b9dfd-e450-4602-ad6d-21c178508cb3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sitewide
+    - node.type.alert
+id: node.alert.field_sitewide
+field_name: field_sitewide
+entity_type: node
+bundle: alert
+label: Sitewide
+description: 'Should this alert be displayed on all site pages?'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

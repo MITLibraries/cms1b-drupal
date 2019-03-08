@@ -1,0 +1,22 @@
+uuid: 1ea17ad0-d107-43b8-a65f-e5242db25012
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.expert
+  module:
+    - text
+id: node.expert.body
+field_name: body
+entity_type: node
+bundle: expert
+label: Description
+description: 'A short bio or description of the expert'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,14 @@
+uuid: 64ed6d6c-b97a-4f9c-9efc-4a097e05979b
+name: cms1b-drupal
+mail: mjbernha@mit.edu
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

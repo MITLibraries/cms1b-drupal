@@ -1,0 +1,53 @@
+uuid: 27e3d737-f4c5-4215-8dca-46189b825afa
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access files overview'
+  - 'access media overview'
+  - 'access toolbar'
+  - 'administer url aliases'
+  - 'create alert content'
+  - 'create article content'
+  - 'create audio media'
+  - 'create file media'
+  - 'create image media'
+  - 'create media'
+  - 'create page content'
+  - 'create remote_video media'
+  - 'create url aliases'
+  - 'create video media'
+  - 'delete any alert content'
+  - 'delete any article content'
+  - 'delete any audio media'
+  - 'delete any file media'
+  - 'delete any image media'
+  - 'delete any media'
+  - 'delete any page content'
+  - 'delete any remote_video media'
+  - 'delete any video media'
+  - 'edit any alert content'
+  - 'edit any article content'
+  - 'edit any audio media'
+  - 'edit any file media'
+  - 'edit any image media'
+  - 'edit any page content'
+  - 'edit any remote_video media'
+  - 'edit any video media'
+  - 'edit own alert content'
+  - 'revert alert revisions'
+  - 'revert all revisions'
+  - 'revert article revisions'
+  - 'revert page revisions'
+  - 'update any media'
+  - 'view alert revisions'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view article revisions'
+  - 'view own unpublished content'
+  - 'view page revisions'

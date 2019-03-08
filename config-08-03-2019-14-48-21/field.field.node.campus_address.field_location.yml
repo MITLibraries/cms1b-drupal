@@ -1,0 +1,29 @@
+uuid: 13e65231-5fa9-493a-bada-07ebde91efb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location
+    - node.type.campus_address
+    - node.type.location
+id: node.campus_address.field_location
+field_name: field_location
+entity_type: node
+bundle: campus_address
+label: Location
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      location: location
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

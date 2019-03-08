@@ -1,0 +1,18 @@
+uuid: 16ba4c7f-58ed-4fb1-a820-44372228c5df
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.campus_address
+id: node.campus_address.title
+field_name: title
+entity_type: node
+bundle: campus_address
+label: 'Room number'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

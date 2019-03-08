@@ -1,0 +1,9 @@
+uuid: 88847f25-9047-4259-8220-0c5730426cca
+langcode: en
+status: true
+dependencies: {  }
+name: Specialties
+vid: specialties
+description: 'A taxonomy of academic areas, which can be affiliated with Experts and Locations (at least)'
+hierarchy: 0
+weight: 0
