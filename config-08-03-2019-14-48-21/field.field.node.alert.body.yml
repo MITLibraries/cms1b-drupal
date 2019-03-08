@@ -1,0 +1,22 @@
+uuid: 7e6b8410-2742-46eb-b948-fc4f28aed07d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.alert
+  module:
+    - text
+id: node.alert.body
+field_name: body
+entity_type: node
+bundle: alert
+label: Body
+description: 'If a longer statement is needed than just the headline, put it here.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

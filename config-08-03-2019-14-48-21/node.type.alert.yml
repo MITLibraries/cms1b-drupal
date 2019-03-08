@@ -1,0 +1,17 @@
+uuid: 962a8bad-39c9-4db6-813d-800b4ba46940
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Alert
+type: alert
+description: 'Use an alert to display urgent messages across the website. They can be targeted for the entire site, or (eventually) just for certain sections.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,19 @@
+uuid: ed921236-9e39-4561-a3d9-1029be161457
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sorted_name
+    - node.type.expert
+id: node.expert.field_sorted_name
+field_name: field_sorted_name
+entity_type: node
+bundle: expert
+label: 'Sorted Name'
+description: 'The name used for displaying experts in a sorted list - perhaps a last name'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

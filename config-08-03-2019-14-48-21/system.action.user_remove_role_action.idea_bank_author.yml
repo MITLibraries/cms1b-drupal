@@ -1,0 +1,14 @@
+uuid: 1cac763e-df57-4bcd-a31f-b760ba27d2b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.idea_bank_author
+  module:
+    - user
+id: user_remove_role_action.idea_bank_author
+label: 'Remove the Idea Bank Author role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: idea_bank_author

@@ -1,0 +1,27 @@
+uuid: e27514d9-8596-4305-9d23-00f33125a36c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cv
+    - node.type.expert
+  module:
+    - file
+id: node.expert.field_cv
+field_name: field_cv
+entity_type: node
+bundle: expert
+label: CV
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: cv
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

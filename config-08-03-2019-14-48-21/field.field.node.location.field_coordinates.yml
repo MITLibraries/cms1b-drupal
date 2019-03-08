@@ -1,0 +1,21 @@
+uuid: b9218105-bcf0-4baa-8f05-b649a536b889
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_coordinates
+    - node.type.location
+  module:
+    - geolocation
+id: node.location.field_coordinates
+field_name: field_coordinates
+entity_type: node
+bundle: location
+label: Coordinates
+description: 'The latitude and longitude for this location'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

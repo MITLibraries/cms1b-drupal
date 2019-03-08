@@ -1,0 +1,17 @@
+uuid: f2e4a2d6-dac7-4eaa-9019-b3b3f5abdc32
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Location
+type: location
+description: 'A location within the library system'
+help: 'The displayed name of the location'
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,28 @@
+uuid: 61d9ada5-0b6f-4ee5-a9b7-f76b4bc289dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_campus_address
+    - node.type.campus_address
+    - node.type.expert
+id: node.expert.field_campus_address
+field_name: field_campus_address
+entity_type: node
+bundle: expert
+label: 'Campus Address'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      campus_address: campus_address
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: campus_address
+field_type: entity_reference
